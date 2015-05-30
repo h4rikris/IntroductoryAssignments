@@ -27,6 +27,12 @@ public class DriverProgram {
         System.out.println("Diamond With Name");
         s = new DiamondWithName(size);
         s.draw();
+        System.out.println("FizzBuZZ");
+        Utils.generateFizzBuzz();
+        System.out.print("Enter Number:");
+        int n=in.nextInt();
+        System.out.println("Prime Factors for " + n);
+        Utils.generatePrimeFactors(n);
     }
 
 }
